@@ -1,0 +1,28 @@
+System.out.print = print sem quebra de linhas
+System.out.println = print com quebra de linhas
+
+%f = ponto flutuante
+%d = inteiro
+%s = texto
+%n = quebra de linha
+
+
+.next() -> Lê UMA palavra (a primeira);
+.nextLine() -> Lê a linha inteira;
+.nextInt() -> Lê um inteiro;
+.nextDouble() -> Lê um double;
+.nextFloat() -> Lê um float.
+
+String.toLowerCase(); -> Transforma a string inteira em letra minuscula;
+String.toUpperCase(); -> Transforma a string inteira em letra maiscula;
+String.trim(); -> Retira os espaços do começo e/ou do final da string;
+String.substring(comecoINCLUSO) -> Cria uma nova string a partir de comecoINCLUSO;
+String.substring(comecoINCLUSO, finalNaoINCLUSO) -> Cria uma nova string a partir de comeco comecoINCLUSO e termina em finalNaoINCLUSO;
+String.replace(TROQUE, POR) -> Troca todas as aparições de TROQUE por POR;
+i = String.indexOf(substring) -> i = index da primeira aparição de substring;
+j = String.lastIndexOf(substring) -> j = index da ultima aparição de substring;
+String.split(SEPARADOR) -> Cria um vetor com as palavras separadas pelo SEPARADOR.
+
+
+
+

@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "OOP",
+            "request": "launch",
+            "mainClass": "OOP",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
+            "name": "ExIdades",
+            "request": "launch",
+            "mainClass": "Exercicios.ExIdades",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
+            "name": "ExRetangulo",
+            "request": "launch",
+            "mainClass": "Exercicios.ExRetangulo",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
+            "name": "ExTerreno",
+            "request": "launch",
+            "mainClass": "Exercicios.ExTerreno",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
+            "name": "ExFixacao",
+            "request": "launch",
+            "mainClass": "Exercicios.ExFixacao",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Ex01",
+            "request": "launch",
+            "mainClass": "Exercicios.Ex01",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
+            "name": "Ex02",
+            "request": "launch",
+            "mainClass": "Exercicios.Ex02",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "Java_1b5c7e89"
+        }
+    ]
+}
