@@ -7,16 +7,19 @@ public class Product {
     public int quantity;
 
     public double TotalValueInStock(){
-
-
-        return price;
+        return price * quantity;
     };
     
     public void AddProducts(int quantity){
 
+        this.quantity += quantity;
+
     };
 
     public void RemoveProducts(int quantity){
+
+        this.quantity -= quantity;
+
 
     }
 }
