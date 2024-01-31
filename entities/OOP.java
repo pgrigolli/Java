@@ -1,3 +1,5 @@
+package entities;
+
 import java.util.Scanner;
 import java.util.Locale;
 
