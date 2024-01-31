@@ -22,7 +22,7 @@ public class ProductExemple {
 
         System.out.printf("Dados do produto: %s, $ %.2f, %d unidades, total %.2f", p1.name, p1.price, p1.quantity, p1.TotalValueInStock());
 
-
+        
         
 
         sc.close();
