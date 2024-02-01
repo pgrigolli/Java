@@ -20,8 +20,17 @@ public class ProductExemple {
         System.out.print("Quantidade em estoque: ");
         p1.quantity = sc.nextInt();
 
-        System.out.printf("Dados do produto: %s, $ %.2f, %d unidades, total %.2f", p1.name, p1.price, p1.quantity, p1.TotalValueInStock());
+        System.out.println(p1);
 
+        System.out.println();
+        System.out.print("Entre com a quantidade de produtos a serem adicionados ao estoque: ");
+        int quantity = sc.nextInt();
+        p1.AddProducts(quantity);
+        System.out.println("Produtos adicionados com sucesso. Quantidade atual: " + p1.quantity);
+        System.out.print("Entre com a quantidade de produtos a serem removidos do estoque: ");
+        quantity = sc.nextInt();
+        p1.RemoveProducts(quantity);
+        System.out.println("Produtos removidos com sucesso. Quantidade atual: " + p1.quantity);
         
         
 
