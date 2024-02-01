@@ -23,10 +23,10 @@ public class ExEmployee {
         System.out.print("Imposto: ");
         fabio.tax = sc.nextDouble();
 
-        System.out.printf("Funcionario: %s, $ %.2f", fabio.name, fabio.NetSalary());
+        System.out.printf("Funcionario: %s, $ %.2f\n", fabio.name, fabio.NetSalary());
 
         System.out.print("Qual a porcentagem para aumentar o salario?: ");
-        
+        fabio.IncreaseSalary(sc.nextInt());
 
 
 
