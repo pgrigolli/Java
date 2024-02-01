@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExEmployee",
+            "request": "launch",
+            "mainClass": "Exercicios.ExEmployee",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
             "name": "ExRetangulo2",
             "request": "launch",
             "mainClass": "Exercicios.ExRetangulo2",
