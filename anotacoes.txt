@@ -24,5 +24,13 @@ j = String.lastIndexOf(substring) -> j = index da ultima aparição de substring
 String.split(SEPARADOR) -> Cria um vetor com as palavras separadas pelo SEPARADOR.
 
 
+FOR EACH:
+for(String obj : vect){
+
+    sysout(obj); -> Vai printar todos os valores de vect, chamando-os de obj
+}
+
+
+
 
 

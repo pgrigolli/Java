@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Matrix",
+            "request": "launch",
+            "mainClass": "application.Matrix",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
+            "name": "Vector",
+            "request": "launch",
+            "mainClass": "application.Vector",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
             "name": "Bank",
             "request": "launch",
             "mainClass": "Exercicios.Bank",
