@@ -1,4 +1,4 @@
-package entitiesEnum;
+package entitiesEnums;
 
 public enum WorkerLevel {
  

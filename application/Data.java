@@ -9,7 +9,7 @@ public class Data {
     
     public static void main(String[] args){
 
-        SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
+        // SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
         SimpleDateFormat sdf2 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         SimpleDateFormat sdf3 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         sdf3.setTimeZone(TimeZone.getTimeZone("GMT"));
