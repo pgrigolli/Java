@@ -60,6 +60,11 @@ public class Post {
         comments.remove(comment);
     }
 
+    public String toString() {
+        return "Post [moment=" + moment + ", title=" + title + ", content=" + content + ", likes=" + likes
+                + ", comments=" + comments + "]";
+    }
+
 
 
 
