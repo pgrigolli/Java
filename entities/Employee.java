@@ -2,22 +2,58 @@ package entities;
 
 public class Employee {
 
-    public String name;
-    public double grossSalary;
-    public double tax;
+    protected String name;
+    protected Integer hours;
+    protected Double valuePerHour;
 
-    public double NetSalary(){
-        return grossSalary - tax;
+
+    
+    public String getName() {
+        return name;
+    }
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public Integer getHours() {
+        return hours;
+    }
+
+
+    public void setHours(Integer hours) {
+        this.hours = hours;
+    }
+
+
+    public Double getValuePerHour() {
+        return valuePerHour;
+    }
+
+
+    public void setValuePerHour(Double valuePerHour) {
+        this.valuePerHour = valuePerHour;
+    }
+
+
+    public Employee(){
+    }
+
+    public Employee(String name, Integer hours, Double valuePerHour) {
+        this.name = name;
+        this.hours = hours;
+        this.valuePerHour = valuePerHour;
+    }
+
+
+    public Double payment(){
+        return hours * valuePerHour;
 
     }
 
-    public void IncreaseSalary(double percentage){
 
-        double result = (grossSalary * percentage)/100;
 
-        result += NetSalary();
-
-        System.out.println("Dados atualizados: " + name + " $ " + result);
-    }
 
 }

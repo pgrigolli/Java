@@ -4,7 +4,6 @@ import java.util.Locale;
 
 
 import entities.Account;
-import entities.BusinessAcount;
 import entities.SavingsAccount;
 
 
@@ -49,17 +48,27 @@ public class AccountProgram {
 
         // }
 
-            Account acc1 = new Account(1002, "Julia", 1000);
-            acc1.withdraw(200);
-            System.out.println(acc1.getBalance());
+            // Account acc1 = new Account(1002, "Julia", 1000);
+            // acc1.withdraw(200);
+            // System.out.println(acc1.getBalance());
 
-            SavingsAccount acc2 = new SavingsAccount(1000, "Pedro", 1000, 0.01);
-            acc2.withdraw(200);    
-            System.out.println(acc2.getBalance());
+            // SavingsAccount acc2 = new SavingsAccount(1000, "Pedro", 1000, 0.01);
+            // acc2.withdraw(200);    
+            // System.out.println(acc2.getBalance());
             
-            BusinessAcount acc3 = new BusinessAcount( 1003, "Pedro", 1000.0, 1000.0);
-            acc3.withdraw(200);
-            System.out.println(acc3.getBalance());
+            // BusinessAcount acc3 = new BusinessAcount( 1003, "Pedro", 1000.0, 1000.0);
+            // acc3.withdraw(200);
+            // System.out.println(acc3.getBalance());
+
+
+            Account x = new Account(1003, "Pedro", 1000);
+            Account y = new SavingsAccount(1002, "Julia", 1000, 0.01);
+
+            x.withdraw(50);
+            y.withdraw(50);
+
+            System.out.println(x.getBalance());
+            System.out.println(y.getBalance());
 
 
 

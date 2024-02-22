@@ -2,61 +2,36 @@ package entities;
 
 public class Product {
 
-    public String name;
-    public double price;
-    public int quantity;
-
+    protected String name;
+    protected Double price;
 
     public Product(){
     }
 
-    public Product(String name, double price, int quantity){
-        this.name = name;
-        this.quantity = quantity;
-        this.price = price;
-    }
-
-    public Product(String name, double price){
+    public Product(String name, Double price) {
         this.name = name;
         this.price = price;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public double getPrice(){
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(double price){
+    public void setPrice(Double price) {
         this.price = price;
     }
 
-    public int getQuantity(){
-        return quantity;
+    public String priceTag(){
+        return name + " $ " + String.format("%.2f", price);
     }
-
-    public double TotalValueInStock(){
-        return price * quantity;
-    };
-    
-    public void AddProducts(int quantity){
-        this.quantity += quantity;
-    };
-
-    public void RemoveProducts(int quantity){
-        this.quantity -= quantity;
-    };
-
-    public String toString(){
-        return name + ", $" + String.format("%.2f", price) + ", " + quantity + " units, Total: $ " + String.format("%.2f", TotalValueInStock());
-    }
-
 
 
 

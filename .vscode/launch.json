@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmployeeProgram",
+            "request": "launch",
+            "mainClass": "application.EmployeeProgram",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
             "name": "AccountProgram",
             "request": "launch",
             "mainClass": "application.AccountProgram",
