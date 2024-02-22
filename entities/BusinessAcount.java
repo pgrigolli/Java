@@ -31,5 +31,12 @@ public class BusinessAcount extends Account {
         }
     }
 
+    @Override //<-- SOBREPOSICAO
+    public void withdraw(double amount){
+        super.withdraw(amount);
+        balance -= 2;
+    }
+
+
 
 }

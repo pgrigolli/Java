@@ -22,6 +22,11 @@ public class SavingsAccount extends Account{
 
     }
 
+    @Override //<-- SOBREPOSICAO
+    public void withdraw(double amount){
+        balance -= amount;
+    }
+
 
     
 
