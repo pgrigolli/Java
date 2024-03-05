@@ -9,5 +9,6 @@
         "c:\\Users\\Usuario\\Downloads\\openjfx-21.0.2_windows-x64_bin-sdk\\javafx-sdk-21.0.2\\lib\\javafx.swing.jar",
         "c:\\Users\\Usuario\\Downloads\\openjfx-21.0.2_windows-x64_bin-sdk\\javafx-sdk-21.0.2\\lib\\javafx.web.jar",
         "c:\\Users\\Usuario\\Downloads\\openjfx-21.0.2_windows-x64_bin-sdk\\javafx-sdk-21.0.2\\lib\\javafx-swt.jar"
-    ]
+    ],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable"
 }
