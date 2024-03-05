@@ -1,4 +1,4 @@
-package entities;
+package ProjectCarRental.entities;
 
 public class Invoice {
 
