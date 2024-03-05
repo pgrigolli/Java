@@ -1,4 +1,4 @@
-package entities;
+package ProjectAccount.entities;
 
 public class SavingsAccount extends Account{
     

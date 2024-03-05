@@ -1,10 +1,9 @@
-package application;
+package ProjectAccount;
 
 import java.util.Locale;
 
-
-import entities.Account;
-import entities.SavingsAccount;
+import ProjectAccount.entities.Account;
+import ProjectAccount.entities.SavingsAccount;
 
 
 
