@@ -1,27 +1,32 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class PrintService {
+public class PrintService <T> {
 
 
-    List<Integer> list = new ArrayList<>();
+    public PrintService(){
+    }
 
-    public void addValue(int value){
+
+
+    List<T> list = new ArrayList<>();
+
+    public void addValue(T value){
         list.add(value);
     }
     
-    public int first(){
+    public T first(){
         return list.get(0);
     }
 
     public void print(){
         System.out.print("[");
-        for(Integer e: list){
+        for(T e: list){
             System.out.print(e + ", ");
         }
             
             
-        System.out.print("]");
+        System.out.print("\b]");
     }
 
 

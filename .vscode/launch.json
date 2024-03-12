@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Program",
+            "projectName": "Java_5faaf96f"
+        },
+        {
+            "type": "java",
             "name": "TaxPayerProgram",
             "request": "launch",
             "mainClass": "application.TaxPayerProgram",
