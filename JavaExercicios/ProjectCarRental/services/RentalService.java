@@ -5,7 +5,6 @@ public class RentalService {
     private double pricePerhour;
     private double pricePerDay;
 
-    private BrasilTaxService BRtaxService;
 
     public RentalService(){
         
