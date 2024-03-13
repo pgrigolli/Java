@@ -1,38 +1,50 @@
 package ProjectCarRental.services;
 
+import ProjectCarRental.entities.CarRental;
+import ProjectCarRental.entities.Invoice;
+
 public class RentalService {
     
     private double pricePerhour;
     private double pricePerDay;
 
-    private BrasilTaxService BRtaxService;
+    private TaxService taxService;
 
     public RentalService(){
         
     }
 
-    public RentalService(double pricePerhour, double pricePerDay) {
+    public RentalService(double pricePerhour, double pricePerDay, TaxService taxService) {
         this.pricePerhour = pricePerhour;
         this.pricePerDay = pricePerDay;
+        this.taxService = taxService;
     }
 
-    public double getPricePerhour() {
-        return pricePerhour;
+
+    public void processInvoice(CarRental carRental){
+        
+        long t1 = carRental.getStart().getTime();
+        long t2 = carRental.getFinish().getTime();
+
+        double hours = (double) (t2 - t1) / 1000 / 60 / 60;
+
+        double basicPayment;
+        if (hours <= 12.0){
+            basicPayment = Math.ceil(hours) * pricePerhour;
+
+        }else{
+            basicPayment = Math.ceil(hours / 24) * pricePerDay;
+
+        }
+
+
+        double tax = taxService.tax(basicPayment);
+
+        carRental.setInvoice(new Invoice(basicPayment, tax));
+
+
     }
 
-    public void setPricePerhour(double pricePerhour) {
-        this.pricePerhour = pricePerhour;
-    }
-
-    public double getPricePerDay() {
-        return pricePerDay;
-    }
-
-    public void setPricePerDay(double pricePerDay) {
-        this.pricePerDay = pricePerDay;
-    }
-
-    
 
 
 }

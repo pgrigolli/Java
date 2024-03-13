@@ -1,6 +1,6 @@
 package ProjectCarRental.services;
 
-public class BrasilTaxService {
+public class BrasilTaxService implements TaxService{
     
     public double tax(double amount){
 

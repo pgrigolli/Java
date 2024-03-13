@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "ProjectCarRental.application.Program",
+            "projectName": "Java_1b5c7e89"
+        },
+        {
+            "type": "java",
             "name": "TaxPayerProgram",
             "request": "launch",
             "mainClass": "application.TaxPayerProgram",
