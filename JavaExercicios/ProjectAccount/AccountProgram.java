@@ -17,6 +17,8 @@ public class AccountProgram {
 
         Locale.setDefault(Locale.US);
 
+        System.out.println("Hello World!");
+
         // Account acc = new Account(1001, "Alex", 0.0);
         // BusinessAcount bAcc = new BusinessAcount(1002, "Maria", 0.0, 500.0);
 

@@ -8,8 +8,13 @@
             "type": "java",
             "name": "Program",
             "request": "launch",
+<<<<<<< HEAD
             "mainClass": "ProjectCarRental.application.Program",
             "projectName": "Java_1b5c7e89"
+=======
+            "mainClass": "Program",
+            "projectName": "Java_5faaf96f"
+>>>>>>> 99845bb09de2be8e9e080a5a7fcdb5d3fac1fc46
         },
         {
             "type": "java",

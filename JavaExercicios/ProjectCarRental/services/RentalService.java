@@ -8,7 +8,10 @@ public class RentalService {
     private double pricePerhour;
     private double pricePerDay;
 
+<<<<<<< HEAD
     private TaxService taxService;
+=======
+>>>>>>> 99845bb09de2be8e9e080a5a7fcdb5d3fac1fc46
 
     public RentalService(){
         
